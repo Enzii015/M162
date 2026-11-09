@@ -53,9 +53,16 @@ Metrische Skala: Ist das Gleiche wie die Kardinalskala, nur ein anderer Name. Be
 | Präferenzrangfolge | Ordinalskala | Rangfolge ohne Abstände |
 | Geschmacksrichtung | Nominalskala | keine natürliche Reihenfolge |
  
----
 
+# Vergleich der Datenarten
 
+| Tätigkeit | Unstrukturiert | Wenig strukturiert | Strukturiert |
+|---|---|---|---|
+| Initialisieren<br>(Struktur festlegen) | sehr einfach<br>- keine Struktur nötig | einfach<br>- grobe Struktur reicht | sehr schwierig<br>- Datenmodell planen |
+| Erfassen<br>(Daten eingeben) | sehr einfach<br>- keine Regeln | einfach<br>- Felder flexibel | mittelschwierig<br>- Schema einhalten |
+| Mutieren<br>(Daten ändern) | sehr schwierig<br>- Stelle schwer zu finden | mittelschwierig<br>- Aufbau uneinheitlich | sehr einfach<br>- UPDATE in SQL |
+| Löschen<br>(Daten entfernen) | mittelschwierig<br>- Teile schwer entfernbar | einfach<br>- Feld gezielt entfernen | sehr einfach<br>- DELETE in SQL |
+| Auswerten<br>(suchen und filtern) | sehr schwierig<br>- keine Felder zum Filtern | mittelschwierig<br>- Daten uneinheitlich | sehr einfach<br>- Abfragen mit SQL |
 
 
 </details>

@@ -7,7 +7,7 @@
 ### Was haben wir gemacht?
 Wir haben angeschaut wie man am besten einen art Bewerbung die Informationen am besten und auch am verständlichsten hinüber bringt. Danach haben wir noch Merkmalstypen angeschaut.
 
-### Merkmalstypenz
+### Merkmalstypen
 
 Häufbar: Man kann mehrere Ausprägungen gleichzeitig haben, z. B. mehrere Hobbys.
 
@@ -26,4 +26,5 @@ Stetig: Man muss es messen, es gibt auch Zwischenwerte, z. B. Gewicht.
 | Berufsausbildung | häufbar |
 | Teilnehmeranzahl | diskret |
 | Wasserpegel | stetig |
+
 </details>

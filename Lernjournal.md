@@ -15,16 +15,47 @@ Diskret: Man kann es zählen, es gibt nur ganze Werte, z. B. Teilnehmeranzahl.
 
 Stetig: Man muss es messen, es gibt auch Zwischenwerte, z. B. Gewicht.
 
-| Merkmal | Typ |
-|---|---|
-| Haarfarbe | häufbar |
-| Gewicht | stetig |
-| Strecke | stetig |
-| Hobby | häufbar |
-| Geschlecht | diskret |
-| Zeitintervall | stetig |
-| Berufsausbildung | häufbar |
-| Teilnehmeranzahl | diskret |
-| Wasserpegel | stetig |
+| Merkmal | Typ | Begründung |
+|---|---|---|
+| Haarfarbe | häufbar | Man kann mehrere Farben haben |
+| Gewicht | stetig | Wird gemessen, z. B. 62,4 kg |
+| Strecke | stetig | Wird gemessen, z. B. 3,7 km |
+| Hobby | häufbar | Man kann mehrere Hobbys haben |
+| Geschlecht | häufbar | Keine Zahl, wie Haarfarbe |
+| Zeitintervall | stetig | Wird gemessen, z. B. 12,5 s |
+| Berufsausbildung | häufbar | Man kann mehrere machen |
+| Teilnehmeranzahl | diskret | Wird gezählt, nur ganze Zahlen |
+| Wasserpegel | stetig | Wird gemessen, z. B. 1,8 m |
+
+### Die Skalentypen
+
+Nominalskala: Die Werte sind nur Namen, es gibt keine Reihenfolge. Man kann nicht rechnen. Beispiel: Haarfarbe. 
+
+Ordinalskala: Die Werte haben eine Reihenfolge, aber man kann nicht rechnen. Beispiel: Kleidergrösse S, M, L.
+
+Kardinalskala: Die Werte sind richtige Zahlen, man kann damit rechnen. Beispiel: Gewicht.
+
+Metrische Skala: Ist das Gleiche wie die Kardinalskala, nur ein anderer Name. Beispiel: Strecke.
+
+### Skalentypen
+ 
+| Merkmal | Skala | Begründung |
+|---|---|---|
+| Zeitdauer | Kardinalskala (metrisch) | messbar, gleiche Abstände |
+| Geschlecht | Nominalskala | keine natürliche Reihenfolge |
+| Kontonummer | Nominalskala | Zahl nur Name |
+| Zufriedenheit (Skala 1–5) | Ordinalskala | Reihenfolge, ungleiche Abstände |
+| Streckenlänge | Kardinalskala (metrisch) | messbar, gleiche Abstände |
+| Haarfarbe | Nominalskala | keine natürliche Reihenfolge |
+| Telefonnummer | Nominalskala | Zahl nur Name |
+| Militär-Dienstrang | Ordinalskala | klare Rangfolge vorhanden |
+| Wassertiefe | Kardinalskala (metrisch) | messbar, gleiche Abstände |
+| Präferenzrangfolge | Ordinalskala | Rangfolge ohne Abstände |
+| Geschmacksrichtung | Nominalskala | keine natürliche Reihenfolge |
+ 
+---
+
+
+
 
 </details>

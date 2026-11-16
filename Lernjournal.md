@@ -182,4 +182,15 @@ Verschwendet: 20 − 5 = 15 MB
 
 Antwort: Nicht sinnvoll. INTEGER braucht 4-mal mehr Speicher als nötig. Besser ist TINYINT (1 Byte).
 
+# Alphanumerische Codes
+## Auftrag 1
+Nein, die Umlaute werden nicht Korrecht dargestellt.
+<img width="388" height="153" alt="image" src="https://github.com/user-attachments/assets/e2e976d0-5005-49b0-9cf0-b89d5401ee90" />
+
+## Auftrag 2
+Es hat nicht mehr die Spizeial Zeichen also man kann die Nachricht jetzt lesen.
+## 3
+<img width="377" height="189" alt="image" src="https://github.com/user-attachments/assets/39589e06-f931-4b03-9251-bfdf3a24e404" />
+## Auftrag 4
+Ich kann die Datei nicht mit einem Webbrouser öffnen
 </details>

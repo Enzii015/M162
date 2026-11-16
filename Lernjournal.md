@@ -1,11 +1,11 @@
 # M162 Lernjournal
 
 <details>
-<summary><h2>Tag 1</h2></summary>
-
+<summary><b>Tag 1</b></summary>
 
 ### Was haben wir gemacht?
-Wir haben angeschaut wie man am besten einen art Bewerbung die Informationen am besten und auch am verständlichsten hinüber bringt. Danach haben wir noch Merkmalstypen angeschaut.
+
+Wir haben angeschaut, wie man bei einer Art Bewerbung die Informationen am besten und am verständlichsten hinüberbringt. Danach haben wir Merkmalstypen und Skalentypen angeschaut.
 
 ### Merkmalstypen
 
@@ -27,74 +27,159 @@ Stetig: Man muss es messen, es gibt auch Zwischenwerte, z. B. Gewicht.
 | Teilnehmeranzahl | diskret | Wird gezählt, nur ganze Zahlen |
 | Wasserpegel | stetig | Wird gemessen, z. B. 1,8 m |
 
-### Die Skalentypen
+### Skalentypen
 
-Nominalskala: Die Werte sind nur Namen, es gibt keine Reihenfolge. Man kann nicht rechnen. Beispiel: Haarfarbe. 
+Nominalskala: Die Werte sind nur Namen, es gibt keine Reihenfolge. Man kann nicht rechnen. Beispiel: Haarfarbe.
 
 Ordinalskala: Die Werte haben eine Reihenfolge, aber man kann nicht rechnen. Beispiel: Kleidergrösse S, M, L.
 
 Kardinalskala: Die Werte sind richtige Zahlen, man kann damit rechnen. Beispiel: Gewicht.
 
-Metrische Skala: Ist das Gleiche wie die Kardinalskala, nur ein anderer Name. Beispiel: Strecke.
+Metrische Skala: Das Gleiche wie die Kardinalskala, nur ein anderer Name. Beispiel: Strecke.
 
-### Skalentypen
- 
 | Merkmal | Skala | Begründung |
 |---|---|---|
 | Zeitdauer | Kardinalskala (metrisch) | messbar, gleiche Abstände |
 | Geschlecht | Nominalskala | keine natürliche Reihenfolge |
-| Kontonummer | Nominalskala | Zahl nur Name |
+| Kontonummer | Nominalskala | Zahl ist nur ein Name |
 | Zufriedenheit (Skala 1–5) | Ordinalskala | Reihenfolge, ungleiche Abstände |
 | Streckenlänge | Kardinalskala (metrisch) | messbar, gleiche Abstände |
 | Haarfarbe | Nominalskala | keine natürliche Reihenfolge |
-| Telefonnummer | Nominalskala | Zahl nur Name |
+| Telefonnummer | Nominalskala | Zahl ist nur ein Name |
 | Militär-Dienstrang | Ordinalskala | klare Rangfolge vorhanden |
 | Wassertiefe | Kardinalskala (metrisch) | messbar, gleiche Abstände |
 | Präferenzrangfolge | Ordinalskala | Rangfolge ohne Abstände |
 | Geschmacksrichtung | Nominalskala | keine natürliche Reihenfolge |
- 
 
-# Vergleich der Datenarten
+### Vergleich der Datenarten
 
 | Tätigkeit | Unstrukturiert | Wenig strukturiert | Strukturiert |
 |---|---|---|---|
-| Initialisieren<br>(Struktur festlegen) | sehr einfach<br>- keine Struktur nötig | einfach<br>- grobe Struktur reicht | sehr schwierig<br>- Datenmodell planen |
-| Erfassen<br>(Daten eingeben) | sehr einfach<br>- keine Regeln | einfach<br>- Felder flexibel | mittelschwierig<br>- Schema einhalten |
-| Mutieren<br>(Daten ändern) | sehr schwierig<br>- Stelle schwer zu finden | mittelschwierig<br>- Aufbau uneinheitlich | sehr einfach<br>- UPDATE in SQL |
-| Löschen<br>(Daten entfernen) | mittelschwierig<br>- Teile schwer entfernbar | einfach<br>- Feld gezielt entfernen | sehr einfach<br>- DELETE in SQL |
-| Auswerten<br>(suchen und filtern) | sehr schwierig<br>- keine Felder zum Filtern | mittelschwierig<br>- Daten uneinheitlich | sehr einfach<br>- Abfragen mit SQL |
+| Initialisieren (Struktur festlegen) | sehr einfach, keine Struktur nötig | einfach, grobe Struktur reicht | sehr schwierig, Datenmodell planen |
+| Erfassen (Daten eingeben) | sehr einfach, keine Regeln | einfach, Felder flexibel | mittelschwierig, Schema einhalten |
+| Mutieren (Daten ändern) | sehr schwierig, Stelle schwer zu finden | mittelschwierig, Aufbau uneinheitlich | sehr einfach, UPDATE in SQL |
+| Löschen (Daten entfernen) | mittelschwierig, Teile schwer entfernbar | einfach, Feld gezielt entfernen | sehr einfach, DELETE in SQL |
+| Auswerten (suchen und filtern) | sehr schwierig, keine Felder zum Filtern | mittelschwierig, Daten uneinheitlich | sehr einfach, Abfragen mit SQL |
 
+### Redundanz
 
-# Rendundanz
- 
-Redundanz bedeutet, dass die gleiche Information mehrfach gespeichert ist, zum Beispiel die Adresse eines Kunden in jeder seiner Bestellungen. Das braucht mehr Speicherplatz, und wenn man die Daten nur an einer Stelle ändert, widersprechen sie sich (Inkonsistenz). Darum teilt man die Daten in einer Datenbank auf mehrere Tabellen auf (Normalisierung), ausser die Redundanz ist gewollt, zum Beispiel bei Backups zur Datensicherheit.
+Redundanz bedeutet, dass die gleiche Information mehrfach gespeichert ist, zum Beispiel die Adresse eines Kunden in jeder seiner Bestellungen. Das braucht mehr Speicherplatz, und wenn man die Daten nur an einer Stelle ändert, widersprechen sie sich (Inkonsistenz). Darum teilt man die Daten in einer Datenbank auf mehrere Tabellen auf (Normalisierung). Ausser die Redundanz ist gewollt, zum Beispiel bei Backups zur Datensicherheit.
 
 </details>
 
 <details>
-<summary><h2>Tag 2</h2></summary>
- 
-# Aufgaben zu Zahlenumwandlung (Unsigned)
-**1. Wandle die Dezimalzahl 27 in sein binäres "Unsigned" Äquivalent um.**
-0001'1011
-**2. Welchem Dezimalwert entspricht unsigned 1001'0011B?**
-147
-**3. Welchem hexadezimalen Wert entspricht unsigned 1011'0111B?**
-B7
-**4. Das letzte Oktet einer IP-Adresse lautet in Hexadezimal 3D. Welchem Binärwert entspricht dies?**
-0011'1101
+<summary><b>Tag 2</b></summary>
 
-# Aufgaben zu Zahlenumwandlung(Signed)
-1.
+### Zahlenumwandlung (Unsigned)
+
+1. Wandle die Dezimalzahl 27 in ihr binäres «Unsigned»-Äquivalent um.
+
+   Antwort: 0001'1011
+
+2. Welchem Dezimalwert entspricht unsigned 1001'0011B?
+
+   Antwort: 147
+
+3. Welchem hexadezimalen Wert entspricht unsigned 1011'0111B?
+
+   Antwort: B7
+
+4. Das letzte Oktett einer IP-Adresse lautet in Hexadezimal 3D. Welchem Binärwert entspricht dies?
+
+   Antwort: 0011'1101
+
+### Zahlenumwandlung (Signed)
+
+Aufgabe 1:
+
+```
 27 ÷ 2 = 13  Rest 1
 13 ÷ 2 = 6   Rest 1
 6  ÷ 2 = 3   Rest 0
 3  ÷ 2 = 1   Rest 1
 1  ÷ 2 = 0   Rest 1
+```
 
 Von unten nach oben: 11011
-8 Bit: 00011011
 
-2.
--109
+In 8 Bit: 0001'1011
+
+Aufgabe 2: -109
+
+### Einfache numerische Datentypen
+
+INTEGER (signed int): Ganze Zahlen mit Vorzeichen, z. B. -2, -1, 0, 1, 2
+
+INTEGER (unsigned int): Ganze Zahlen ohne Vorzeichen (nur positiv), z. B. 0, 1, 2
+
+FLOAT (float): Fliesskommazahlen, z. B. -2.1426, +0.1393 · 10³, -0.725 · 10⁻³
+
+BOOLEAN (boolean): Logischer Datentyp, z. B. true, false
+
+Normalisiertes Float-Format: x = v · m · b^e
+
+- v = Vorzeichen (1 Bit)
+- m = Mantisse (23 Bit)
+- b = Basis (2)
+- e = Exponent (8 Bit)
+- Total: 32 Bit
+
+### Datentypen und Wertebereich
+
+Unsigned: 0 bis 2^n − 1
+
+Signed: −2^(n−1) bis 2^(n−1) − 1
+
+1. 0 bis 255 (2^8 = 256, minus 1 = 255)
+2. −32'768 bis +32'767
+3. 2^16 = 65'536
+4. Mehr als eine Million: 2^20 = 1'048'576, also 20 Bit
+5. Anzahl Werte: 999 + 999 + 1 (die Null) = 1999
+
+   2^10 = 1024, zu wenig
+
+   2^11 = 2048, reicht, also 11 Bit
+
+### Aufgabe 8: 300'000'000 + 1
+
+Ein Float kann nicht jede Zahl speichern. Bei grossen Zahlen kann er nur in Sprüngen zählen.
+
+Schritt 1: Welche Zweierpotenz passt zu 300'000'000?
+
+2^28 = 268'435'456, das passt (ist knapp kleiner).
+
+Schritt 2: Wie gross sind die Sprünge?
+
+28 − 23 = 5, also 2^5 = 32 (23 = Anzahl Mantissen-Bits beim Float).
+
+Schritt 3: Der Float kann also nur speichern:
+
+300'000'000, 300'000'032, 300'000'064 …
+
+Schritt 4: 300'000'001 liegt fast genau auf 300'000'000, also wird gerundet.
+
+Antwort: Es bleibt 300'000'000. Die +1 ist zu klein und geht verloren.
+
+### Aufgabe 9: Boolean bei 100'000 Kunden
+
+Ein Boolean ist nur «Ja» oder «Nein». Dafür reicht 1 Bit. Der Computer nimmt aber 1 Byte (= 8 Bit).
+
+Theoretisch (1 Bit pro Kunde): 100'000 Bit ÷ 8 = 12'500 Byte = 12,5 kB
+
+Real (1 Byte pro Kunde): 100'000 Byte = 100 kB
+
+Antwort: theoretisch 12,5 kB, real 100 kB
+
+### Aufgabe 10: Wochentag als INTEGER
+
+Es gibt nur 7 Wochentage. Dafür braucht man keine 4 Byte, 1 Byte reicht.
+
+Mit INTEGER (4 Byte): 5'000'000 × 4 = 20 MB
+
+Mit TINYINT (1 Byte): 5'000'000 × 1 = 5 MB
+
+Verschwendet: 20 − 5 = 15 MB
+
+Antwort: Nicht sinnvoll. INTEGER braucht 4-mal mehr Speicher als nötig. Besser ist TINYINT (1 Byte).
+
 </details>

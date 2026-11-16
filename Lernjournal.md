@@ -70,3 +70,31 @@ Metrische Skala: Ist das Gleiche wie die Kardinalskala, nur ein anderer Name. Be
 Redundanz bedeutet, dass die gleiche Information mehrfach gespeichert ist, zum Beispiel die Adresse eines Kunden in jeder seiner Bestellungen. Das braucht mehr Speicherplatz, und wenn man die Daten nur an einer Stelle ändert, widersprechen sie sich (Inkonsistenz). Darum teilt man die Daten in einer Datenbank auf mehrere Tabellen auf (Normalisierung), ausser die Redundanz ist gewollt, zum Beispiel bei Backups zur Datensicherheit.
 
 </details>
+
+<details>
+<summary><h2>Tag 2</h2></summary>
+ 
+# Aufgaben zu Zahlenumwandlung (Unsigned)
+**1. Wandle die Dezimalzahl 27 in sein binäres "Unsigned" Äquivalent um.**
+0001'1011
+**2. Welchem Dezimalwert entspricht unsigned 1001'0011B?**
+147
+**3. Welchem hexadezimalen Wert entspricht unsigned 1011'0111B?**
+B7
+**4. Das letzte Oktet einer IP-Adresse lautet in Hexadezimal 3D. Welchem Binärwert entspricht dies?**
+0011'1101
+
+# Aufgaben zu Zahlenumwandlung(Signed)
+1.
+27 ÷ 2 = 13  Rest 1
+13 ÷ 2 = 6   Rest 1
+6  ÷ 2 = 3   Rest 0
+3  ÷ 2 = 1   Rest 1
+1  ÷ 2 = 0   Rest 1
+
+Von unten nach oben: 11011
+8 Bit: 00011011
+
+2.
+-109
+</details>

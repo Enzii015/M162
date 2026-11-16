@@ -65,4 +65,8 @@ Metrische Skala: Ist das Gleiche wie die Kardinalskala, nur ein anderer Name. Be
 | Auswerten<br>(suchen und filtern) | sehr schwierig<br>- keine Felder zum Filtern | mittelschwierig<br>- Daten uneinheitlich | sehr einfach<br>- Abfragen mit SQL |
 
 
+# Rendundanz
+ 
+Redundanz bedeutet, dass die gleiche Information mehrfach gespeichert ist, zum Beispiel die Adresse eines Kunden in jeder seiner Bestellungen. Das braucht mehr Speicherplatz, und wenn man die Daten nur an einer Stelle ändert, widersprechen sie sich (Inkonsistenz). Darum teilt man die Daten in einer Datenbank auf mehrere Tabellen auf (Normalisierung), ausser die Redundanz ist gewollt, zum Beispiel bei Backups zur Datensicherheit.
+
 </details>

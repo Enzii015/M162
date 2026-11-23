@@ -70,6 +70,7 @@ Redundanz bedeutet, dass die gleiche Information mehrfach gespeichert ist, zum B
 <details>
 <summary><b>Tag 2</b></summary>
 
+# Datentjpen
 ### Zahlenumwandlung (Unsigned)
 
 1. Wandle die Dezimalzahl 27 in ihr binäres «Unsigned»-Äquivalent um.
